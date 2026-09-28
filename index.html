@@ -3,14 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Hub</title>
+
+    <meta
+        name="description"
+        content="Game Hub — discover and play browser games."
+    >
+
+    <title>Game Hub | Discover & Play</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <h1>🎮 Game Hub</h1>
-    <p>Discover and play browser games.</p>
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            🎮 Game<span>Hub</span>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#categories">Categories</a>
+        </nav>
+
+        <button class="search-btn">🔍 Search</button>
+    </header>
+
+
+    <!-- Hero Section -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO GAME HUB</p>
+
+                <h1>
+                    Discover.
+                    <span>Play.</span>
+                    Repeat.
+                </h1>
+
+                <p class="hero-text">
+                    Explore a collection of fun browser games
+                    and find something new to play.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#games" class="primary-btn">
+                        Explore Games
+                    </a>
+
+                    <a href="#categories" class="secondary-btn">
+                        Browse Categories
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Games Section -->
+        <section class="games-section" id="games">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">EXPLORE</p>
+                    <h2>Featured Games</h2>
+                </div>
+
+                <a href="#" class="view-all">View All →</a>
+            </div>
+
+
+            <div class="game-grid">
+
+                <article class="game-card">
+                    <div class="game-image">
+                        🎯
+                    </div>
+
+                    <div class="game-info">
+                        <span class="game-category">Arcade</span>
+                        <h3>Game Title</h3>
+                        <p>A short description of the game.</p>
+
+                        <button class="play-btn">
+                            Play Now →
+                        </button>
+                    </div>
+                </article>
+
+
+                <article class="game-card">
+                    <div class="game-image">
+                        🧩
+                    </div>
+
+                    <div class="game-info">
+                        <span class="game-category">Puzzle</span>
+                        <h3>Game Title</h3>
+                        <p>A short description of the game.</p>
+
+                        <button class="play-btn">
+                            Play Now →
+                        </button>
+                    </div>
+                </article>
+
+
+                <article class="game-card">
+                    <div class="game-image">
+                        🚀
+                    </div>
+
+                    <div class="game-info">
+                        <span class="game-category">Action</span>
+                        <h3>Game Title</h3>
+                        <p>A short description of the game.</p>
+
+                        <button class="play-btn">
+                            Play Now →
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Categories -->
+        <section class="categories-section" id="categories">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">FIND YOUR STYLE</p>
+                    <h2>Categories</h2>
+                </div>
+            </div>
+
+            <div class="category-grid">
+
+                <a href="#" class="category-card">
+                    <span>🕹️</span>
+                    <h3>Arcade</h3>
+                </a>
+
+                <a href="#" class="category-card">
+                    <span>🧩</span>
+                    <h3>Puzzle</h3>
+                </a>
+
+                <a href="#" class="category-card">
+                    <span>🏎️</span>
+                    <h3>Racing</h3>
+                </a>
+
+                <a href="#" class="category-card">
+                    <span>⚔️</span>
+                    <h3>Action</h3>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">🎮 GameHub</div>
+
+        <p>
+            Discover games. Have fun.
+        </p>
+
+        <p class="copyright">
+            © 2026 Game Hub
+        </p>
+    </footer>
+
 
     <script src="js/app.js"></script>
+
 </body>
 </html>
